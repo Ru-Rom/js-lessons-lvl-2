@@ -1,0 +1,48 @@
+[
+   {
+      "href": "/",
+      "name": "Главная"
+   },
+   {
+      "href": "./gallery.html",
+      "name": "Каталог"
+   },
+   {
+      "href": "./gallery.html",
+      "name": "Товары",
+      "items": [
+         {
+            "href": "./img/01.jpg",
+            "name": "Кот 1"
+         },
+         {
+            "href": "./img/02.jpg",
+            "name": "Кот 2"
+         },
+         {
+            "href": "./gallery.html",
+            "name": "Еще товары",
+            "items": [
+               {
+                  "href": "./img/03.jpg",
+                  "name": "Полосатый кот 1"
+               },
+               {
+                  "href": "./gallery.html",
+                  "name": "Третий под каталог",
+                  "items": [
+                     {
+                        "href": "./img/04.jpg",
+                        "name": "Рыжий кот 1"
+                     },
+                     {
+                        "href": "./img/05.jpg",
+                        "name": "Шерстистый кот 2"
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+]
