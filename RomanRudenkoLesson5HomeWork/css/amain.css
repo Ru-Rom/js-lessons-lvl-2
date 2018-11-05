@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.userReviewsSection,
+.adminReviewsSection {
+    margin-top: 2em;
+    outline: 1px solid gray;
+    min-height: 300px;
+    min-width: 25%;
+}
+
+.reviewsTitle {
+    margin: 5px auto;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.reviewSubmit{
+  min-width: 300px;
+}
+
+.userMessage {
+    margin: 0;
+    margin-top: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+    color: green;
+    font-weight: bold;
+    border: 2px dotted green;
+    border-radius: 10px;
+    background-color: skyblue;
+    display: none;
+}
+
+.userReviewsTitle {
+    color: #92ED6B;
+}
+
+.adminReviewsTitle {
+    color: #FFA773;
+}
+
+.userReviewsSide,
+.adminReviewsSide {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.addReviewWrapper,
+.userReviewsWrapper,
+.adminReviewsWrapper {
+    width: 95%;
+}
+
+.reviewWrapper {
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.reviewHeader {
+    margin: 0;
+}
+
+.reviewHeaderUser {
+    margin: 0;
+    font-weight: bold;
+    color: #70ED3B;
+}
+
+.reviewUserId {
+    color: #70ED3B;
+    font-weight: bold;
+}
+
+.reviewComment {
+    margin: 0;
+    margin-top: 10px;
+}
+
+.reviewUser {
+    border: 2px solid gray;
+}
+
+.reviewPending {
+    border: 2px solid gray;
+}
+
+.reviewApproved {
+    border: 3px solid lightgreen;
+}
+
+.reviewButtonsWrapper {
+    text-align: right;
+}
+
+.buttonDisapprove, .buttonDelete {
+    margin-left: 10px;
+}
