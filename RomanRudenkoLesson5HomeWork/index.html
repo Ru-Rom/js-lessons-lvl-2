@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Урок 5. Отзывы</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/amain.css">
+    <!--     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+</head>
+
+<body>
+    <div class="userReviewsSide">
+        <h3 class="userReviewsTitle reviewsTitle">Отзывы пользователей</h3>
+        <div class="addReviewWrapper form-group">
+            <form id="reviewSubmit">
+                <fieldset class="form-group reviewSubmit">
+                    <label for="userName">Имя:</label>
+                    <input type="text" class="form-control" id="userName" name="userName" maxlength="30" required>
+                    <br><br>
+                    <label for="userReview">Отзыв:</label>
+                    <input type="text" class="form-control" id="userReview" name="userReview" maxlength="100" required>
+                    <br><br>
+                    <input type="submit" class="btn btn-success" value="Отправить отзыв">
+                    <input type="reset" class="btn btn-danger" value="Сбросить">
+                    <p class="userMessage">Ваш отзыв отправлен на проверку</p>
+                </fieldset>
+            </form>
+        </div>
+        <div class="userReviewsWrapper">
+        </div>
+    </div>
+
+    <div class="adminReviewsSide">
+        <h3 class="adminReviewsTitle reviewsTitle">Отзывы(админка):</h3>
+        <div class="adminReviewsWrapper">
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!-- Скрипты домашки -->
+    <!-- <script src="./js/random.js"></script> -->
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
