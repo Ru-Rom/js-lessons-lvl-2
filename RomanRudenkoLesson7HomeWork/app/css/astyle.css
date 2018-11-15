@@ -1,0 +1,18 @@
+.light-green {
+	background-color: #E1FBAA;
+	min-height: 380px;
+}
+
+.middle {
+	width: 400px;
+	height: 500px;
+
+}
+
+.green {
+	background-color: #E1FBAA;
+}
+
+#dialog {
+	display: none;
+}
